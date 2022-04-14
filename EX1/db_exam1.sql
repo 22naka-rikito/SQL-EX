@@ -53,4 +53,4 @@ update student set grade=3 where student_id=10;
 
 --10
 delete from student
-db_exam-> where student_id=10;
+where student_id=10;
