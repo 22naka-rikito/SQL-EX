@@ -26,7 +26,7 @@ begin
     return trunc(amount * 1.1);
 end;
 $$LANGUAGE plpgsql;
-select *,func(amount) from sales;
+select *, func(amount) from sales;
 
 --5
 CREATE TABLE users(
