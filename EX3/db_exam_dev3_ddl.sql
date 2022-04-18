@@ -1,0 +1,15 @@
+CREATE TABLE books(
+書籍ID INT PRIMARY KEY
+, 書籍名 VARCHAR(50)
+, 出版社ID INT
+, 定価 DECIMAL
+, 発行年月日 DATE
+, 著者ID INT);
+
+CREATE TABLE publishing(
+出版社ID INT PRIMARY KEY
+, 出版社名 VARCHAR(50));
+
+CREATE TABLE author(
+著者ID INT PRIMARY KEY
+, 著者名 VARCHAR(50));
